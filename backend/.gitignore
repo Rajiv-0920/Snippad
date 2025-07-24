@@ -1,0 +1,52 @@
+# Node modules
+node_modules/
+client/node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+
+# Runtime
+.pnpm-debug.log
+*.pid
+*.seed
+*.tgz
+
+# Coverage reports
+coverage/
+
+# Optional: Ignore socket.io temp data if you store any
+tmp/
+
+# React (if using Create React App)
+client/build/
+
+# MongoDB data dump (if generated locally)
+dump/
+
+# Optional: Lint/format
+.eslintcache
+.prettiercache
